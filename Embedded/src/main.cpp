@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
@@ -11,6 +12,8 @@ const int udpPort = 6969;                // Port to send UDP packets to
 // --- Global Objects ---
 WiFiUDP udp;
 unsigned int counter = 0;
+
+void connectToWiFi();
 
 void setup() {
   // Start Serial for debugging
