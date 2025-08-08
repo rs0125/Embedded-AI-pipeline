@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
+#include "LogEntry.h"
 
 // --- Configuration ---
 const char* ssid = "MyLinuxHotspot";         // Your Wi-Fi network SSID
